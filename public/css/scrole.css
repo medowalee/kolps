@@ -1,2 +1,13 @@
-.box {
+.medrs {
+  height: 50rem;
 }
+
+
+.box {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 2px solid rgb(255, 255, 255, 0.7);
+
+}
+/* bg-slate-100 bg-opacity-5 backdrop-filter backdrop-blur-md border border-gray-100 border-spacing-2 */

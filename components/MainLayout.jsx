@@ -6,7 +6,7 @@ const nameweb = "minmodes";
 export function DefaultHeader() {
   return (
     <>
-    <Navbar className="bg-none dark:bg-slate-800">
+    <Navbar className="bg-none bg-transparent backdrop-filter backdrop-blur-10">
       <NavbarBrand href="/">
       <img src="https://i.imgur.com/hp3xRDF.png" className="mr-3 h-6 sm:h-12" alt="Logo" />
       <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">{nameweb}</span>
